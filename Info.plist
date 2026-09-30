@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>AbleRecorder</string>
+<key>CFBundleIdentifier</key><string>local.michael.LoopbackRecorder</string>
+<key>CFBundleName</key><string>Able Recorder</string>
+<key>CFBundleDisplayName</key><string>Able Recorder</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.2.0</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSMicrophoneUsageDescription</key><string>Запись выбранных loopback-каналов вашей аудиокарты в стереодорожку MP4.</string>
+<key>NSScreenCaptureUsageDescription</key><string>Запись выбранного экрана с Ableton или другим приложением.</string>
+</dict></plist>

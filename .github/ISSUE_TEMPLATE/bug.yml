@@ -1,0 +1,22 @@
+name: Capture bug
+description: Report a reproducible screen or audio recording problem
+title: "[Bug] "
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected result and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: macOS, Mac, interface/driver, sample rate, L/R channels, display and video preset
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Remove personal paths, device IDs and private project content before sharing.

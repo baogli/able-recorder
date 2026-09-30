@@ -1,0 +1,9 @@
+build/
+dist/
+recordings/
+Tests/output/
+.tools/
+.local/
+marketing/designs/.tesseract-work/
+.DS_Store
+*.partial.mp4

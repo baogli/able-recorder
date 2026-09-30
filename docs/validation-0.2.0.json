@@ -1,0 +1,48 @@
+{
+  "emptyRecordingRejected": true,
+  "tests": [
+    {
+      "audioFramesDecoded": 96000,
+      "bytes": 135256,
+      "duration": 2.5,
+      "fastStart": true,
+      "left1000HzAmplitude": 0.40006112576413455,
+      "left1500HzLeak": 0.00013112341252787465,
+      "right1000HzLeak": 6.889013487274775e-05,
+      "right1500HzAmplitude": 0.2000095407276492,
+      "videoFramesDecoded": 61,
+      "videoCodec": "h264",
+      "fps": 30,
+      "inputSampleRate": 48000
+    },
+    {
+      "audioFramesDecoded": 96000,
+      "bytes": 220413,
+      "duration": 2.5,
+      "fastStart": true,
+      "left1000HzAmplitude": 0.4000610885056635,
+      "left1500HzLeak": 0.00013127849390849648,
+      "right1000HzLeak": 6.885002714084084e-05,
+      "right1500HzAmplitude": 0.20001178664994773,
+      "videoFramesDecoded": 121,
+      "videoCodec": "h264",
+      "fps": 60,
+      "inputSampleRate": 44100
+    },
+    {
+      "audioFramesDecoded": 96000,
+      "bytes": 220507,
+      "duration": 2.5,
+      "fastStart": true,
+      "left1000HzAmplitude": 0.4000611295295674,
+      "left1500HzLeak": 0.00013135416259776815,
+      "right1000HzLeak": 6.888402136881069e-05,
+      "right1500HzAmplitude": 0.20000268708463578,
+      "videoFramesDecoded": 61,
+      "videoCodec": "hevc",
+      "fps": 30,
+      "inputSampleRate": 96000
+    }
+  ],
+  "timestamp": "2026-09-30T19:55:12Z"
+}

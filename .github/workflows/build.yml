@@ -1,0 +1,20 @@
+name: Build macOS preview
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and verify signature
+        run: ./build.sh
+      - name: Package
+        run: ./scripts/package.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Able-Recorder-macOS-preview
+          path: dist/*
