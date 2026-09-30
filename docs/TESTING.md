@@ -14,7 +14,7 @@ The native `--self-test` encodes and fully decodes:
 
 Assertions cover frame/audio counts, duration, a held final frame, independent 1000/1500 Hz L/R content and amplitudes, sample-rate conversion, an empty-recording rejection and `moov` before `mdat` in the finished MP4. Generated recordings stay in the ignored `Tests/output` directory.
 
-The 0.2.0 build passed all three cases on 2026-10-01 (local time). Machine-readable measurements are in [validation-0.2.0.json](validation-0.2.0.json). The native window layout check also passed, with the record button visible inside a 642 × 731 content area. Final screenshot review after renaming requires an unlocked Mac session.
+The 0.2.0 build passed all three cases on 2026-10-01 (local time). Machine-readable measurements are in [validation-0.2.0.json](validation-0.2.0.json). The native window layout check also passed, with the record button visible inside a 642 × 731 content area. The renamed app was subsequently opened and visually reviewed in an unlocked Mac session; the real window screenshot is in `marketing/App-screenshot.png`.
 
 ## Local capture
 

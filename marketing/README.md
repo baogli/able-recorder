@@ -12,6 +12,8 @@ Ready-to-use original graphics, matching editable sources, bilingual launch copy
 | Russian story | 1080 × 1920 | [PNG](designs/Story-RU.png) | [Tesseract](designs/Story-RU.tsrct) |
 | App icon | 1024 × 1024 | [PNG](designs/App-icon.png) | [Tesseract](designs/App-icon.tsrct) |
 
+[Actual app screenshot](App-screenshot.png) · 1284 × 1526 pixels, idle state, not a music-recording demo.
+
 [Vector logo](../assets/logo.svg) · [macOS ICNS](../assets/AppIcon.icns) · [Launch copy and demo script](COPY.md)
 
 ## Brand

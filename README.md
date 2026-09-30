@@ -24,6 +24,12 @@ A free, open-source Mac screen recorder for musicians. Choose a display, select 
 
 **This version records files; it does not broadcast a live stream.** “Any input” means an input device/channel exposed by macOS, not a promise that every audio interface has been tested. Hardware loopback must be available and configured on your interface. Able Recorder does not install a loopback driver or change your DAW routing.
 
+## The app
+
+<p align="center"><img src="marketing/App-screenshot.png" width="620" alt="Able Recorder native window with selectable display, audio inputs, quality and permissions"></p>
+
+Actual 0.2.0 interface, idle with an Audient device selected; this is not a music-recording demo.
+
 ## Requirements and download
 
 macOS **14 Sonoma or later**, **Apple Silicon**. The current interface is in Russian. Intel can be compiled with `ARCH=x86_64`; Intel runtime capture has not been tested.
